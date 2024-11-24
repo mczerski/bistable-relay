@@ -1,0 +1,4 @@
+(version 1)
+(rule hv_netclass_clearance
+  (condition "A.NetClass == 'OUT' && B.NetClass == 'OUT'")
+  (constraint clearance (min 0.8mm)))
