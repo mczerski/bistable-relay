@@ -6,7 +6,7 @@
 	(descr "PCIexpress Bus Edge Connector x1 http://www.ritrontek.com/uploadfile/2016/1026/20161026105231124.pdf#page=70")
 	(tags "PCIe")
 	(property "Reference" "REF**"
-		(at 2.032 -6.2738 0)
+		(at 2.286 -5.0038 0)
 		(layer "F.SilkS")
 		(uuid "ffe5cac5-fcc4-440c-b143-1b21e31a55af")
 		(effects
@@ -17,7 +17,7 @@
 		)
 	)
 	(property "Value" "edge_connector"
-		(at 10.4902 -6.6294 0)
+		(at 10.7442 -5.3594 0)
 		(layer "F.Fab")
 		(uuid "a5d6b9e7-1448-49da-8335-2da06db18d71")
 		(effects
@@ -28,7 +28,7 @@
 		)
 	)
 	(property "Footprint" ""
-		(at 0 0 0)
+		(at 0.254 1.27 0)
 		(layer "F.Fab")
 		(hide yes)
 		(uuid "0c2a30ef-9cd9-4a05-b905-b545877c7c4e")
@@ -40,7 +40,7 @@
 		)
 	)
 	(property "Datasheet" ""
-		(at 0 0 0)
+		(at 0.254 1.27 0)
 		(layer "F.Fab")
 		(hide yes)
 		(uuid "2899cf00-105c-45bd-a200-86348bf1052c")
@@ -52,7 +52,7 @@
 		)
 	)
 	(property "Description" ""
-		(at 0 0 0)
+		(at 0.254 1.27 0)
 		(layer "F.Fab")
 		(hide yes)
 		(uuid "ae5f1e04-6db7-42d8-bed4-7fef6d3ad9ce")
@@ -65,8 +65,8 @@
 	)
 	(attr exclude_from_pos_files exclude_from_bom)
 	(fp_line
-		(start 0 -4)
-		(end 0 0)
+		(start 0.254 -2.73)
+		(end 0.254 -0.127)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -75,8 +75,8 @@
 		(uuid "cde0aedd-6627-4116-9c4e-b6e5723ec939")
 	)
 	(fp_line
-		(start 0 0)
-		(end 4.174 0)
+		(start 0.254 -0.127)
+		(end 4.445 -0.127)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -85,8 +85,8 @@
 		(uuid "d9ee1e05-e34b-448c-adb3-5b21dcaaa832")
 	)
 	(fp_line
-		(start 4.174 -4)
-		(end 4.174 0)
+		(start 4.445 -2.73)
+		(end 4.445 -0.127)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -95,8 +95,8 @@
 		(uuid "cb1e33ca-93c1-4cd3-b00c-275b9c875a5a")
 	)
 	(fp_line
-		(start 4.174 -4)
-		(end 13.97 -4)
+		(start 4.445 -2.73)
+		(end 14.224 -2.73)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -105,8 +105,8 @@
 		(uuid "df223737-4b32-4a7a-a20d-1e3112ab7794")
 	)
 	(fp_line
-		(start 13.97 -4)
-		(end 13.97 0)
+		(start 14.224 -2.73)
+		(end 14.224 -0.127)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -115,8 +115,8 @@
 		(uuid "f4c70316-2ada-4629-bfbe-2c7783bde5b4")
 	)
 	(fp_line
-		(start 13.97 0)
-		(end 20 0)
+		(start 14.224 -0.127)
+		(end 20.254 -0.127)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -125,8 +125,8 @@
 		(uuid "3f6dfa1e-a4ec-4e5a-a1f7-9e64679b228f")
 	)
 	(fp_line
-		(start 20 -4)
-		(end 20 0)
+		(start 20.254 -2.73)
+		(end 20.254 -0.127)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -135,8 +135,8 @@
 		(uuid "3a029bed-84a1-46a3-b512-32c91dabcc4e")
 	)
 	(fp_line
-		(start -0.2 -4)
-		(end -0.2 0.5)
+		(start 0.054 -2.73)
+		(end 0.054 0)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -145,8 +145,8 @@
 		(uuid "a8355ad9-3996-4613-bbab-c5aa0821da0b")
 	)
 	(fp_line
-		(start -0.2 -4)
-		(end 20.2 -4)
+		(start 0.054 -2.73)
+		(end 20.454 -2.73)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -155,8 +155,8 @@
 		(uuid "93a6dc21-9b11-4c83-a7b2-c4d084421006")
 	)
 	(fp_line
-		(start 20.2 0.5)
-		(end -0.2 0.5)
+		(start 20.454 0)
+		(end 0.054 0)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -165,8 +165,8 @@
 		(uuid "5452e157-7d95-48b9-a527-9fe2c4991f96")
 	)
 	(fp_line
-		(start 20.2 0.5)
-		(end 20.2 -4)
+		(start 20.454 0)
+		(end 20.454 -2.73)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -175,7 +175,7 @@
 		(uuid "d3d7fca6-23f5-42d4-9571-6322377733a2")
 	)
 	(fp_text user "PCB Thickness 1 mm"
-		(at 8.382 -4.826 180)
+		(at 8.636 -3.556 180)
 		(layer "Cmts.User")
 		(uuid "d1284638-e63e-4b07-899a-fd0975ba325f")
 		(effects
@@ -186,33 +186,33 @@
 		)
 	)
 	(pad "1" connect rect
-		(at 2.174 -2)
-		(size 3.5 3.5)
+		(at 2.413 -1.27)
+		(size 3.5 2)
 		(layers "F.Cu" "F.Mask")
 		(uuid "101a829f-1df9-4b84-8733-81daffefbaaf")
 	)
 	(pad "2" connect rect
-		(at 2.174 -2)
-		(size 3.5 3.5)
+		(at 2.413 -1.27)
+		(size 3.5 2)
 		(layers "B.Cu" "B.Mask")
 		(uuid "9bb4adca-c375-4c8d-9123-6614b99ac535")
 	)
 	(pad "3" connect rect
-		(at 14.986 -2.032)
-		(size 1.5 3.5)
-		(layers "F.Cu" "F.Mask")
+		(at 15.24 -1.27)
+		(size 1.5 2)
+		(layers "B.Cu" "B.Mask")
 		(uuid "010ea44c-fa52-4f5c-8015-6e1bee20f3d3")
 	)
 	(pad "4" connect rect
-		(at 17.018 -1.993)
-		(size 1.5 3.5)
-		(layers "F.Cu" "F.Mask")
+		(at 17.272 -1.27)
+		(size 1.5 2)
+		(layers "B.Cu" "B.Mask")
 		(uuid "974fd9a4-c353-43c9-b998-e72c3b8341a0")
 	)
 	(pad "5" connect rect
-		(at 19.05 -1.993)
-		(size 1.5 3.5)
-		(layers "F.Cu" "F.Mask")
+		(at 19.304 -1.27)
+		(size 1.5 2)
+		(layers "B.Cu" "B.Mask")
 		(uuid "333e97a6-aa9b-4adb-973c-41a1a1d6312a")
 	)
 )
