@@ -60,10 +60,13 @@
         }
       ],
       "drc_exclusions": [
+        "lib_footprint_mismatch|140506500|99971000|1c5e7616-3ca6-4093-b6c8-44f43743f929|00000000-0000-0000-0000-000000000000",
+        "silk_edge_clearance|147750000|95345000|af6d0a3f-aa92-46cd-83ae-0cc00e28cc99|39089dfb-28eb-40a7-89ef-a71bf9e3d2b8",
         "silk_over_copper|131934000|94510000|22ae3435-1176-4b8f-90ca-3bd866b895fa|00000000-0000-0000-0000-000000000000",
-        "silk_over_copper|132763989|97090000|86f7fbe6-8832-4932-978d-35bfa537ed25|00000000-0000-0000-0000-000000000000",
-        "silk_over_copper|132771978|103685000|b7587148-4edc-49d9-a7a7-d618e0639b0a|00000000-0000-0000-0000-000000000000",
-        "silk_over_copper|149754442|95345000|39089dfb-28eb-40a7-89ef-a71bf9e3d2b8|00000000-0000-0000-0000-000000000000"
+        "silk_over_copper|132763767|103685000|b7587148-4edc-49d9-a7a7-d618e0639b0a|00000000-0000-0000-0000-000000000000",
+        "silk_over_copper|132812066|97090000|86f7fbe6-8832-4932-978d-35bfa537ed25|00000000-0000-0000-0000-000000000000",
+        "silk_over_copper|145120000|95345000|ecc36c97-bcd6-439a-b9f9-ff4f53b24ef7|00000000-0000-0000-0000-000000000000",
+        "silk_over_copper|147305000|95345000|39089dfb-28eb-40a7-89ef-a71bf9e3d2b8|00000000-0000-0000-0000-000000000000"
       ],
       "meta": {
         "version": 2
@@ -132,16 +135,16 @@
         "min_microvia_diameter": 0.2,
         "min_microvia_drill": 0.1,
         "min_resolved_spokes": 2,
-        "min_silk_clearance": 0.0,
-        "min_text_height": 0.8,
-        "min_text_thickness": 0.08,
+        "min_silk_clearance": 0.05,
+        "min_text_height": 0.5,
+        "min_text_thickness": 0.1,
         "min_through_hole_diameter": 0.3,
         "min_track_width": 0.2,
         "min_via_annular_width": 0.15,
         "min_via_diameter": 0.4,
-        "solder_mask_clearance": 0.0,
-        "solder_mask_min_width": 0.0,
-        "solder_mask_to_copper_clearance": 0.0,
+        "solder_mask_clearance": 0.05,
+        "solder_mask_min_width": 0.25,
+        "solder_mask_to_copper_clearance": 0.05,
         "use_height_for_length_calcs": true
       },
       "teardrop_options": [
@@ -547,7 +550,7 @@
       "plot": "plots",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "bistable-relay.step",
+      "step": "3dshapes/bistable-relay.step",
       "svg": "",
       "vrml": ""
     },
@@ -665,7 +668,7 @@
   "sheets": [
     [
       "4a69ceaa-96a4-4d62-a433-9e614f222c23",
-      "Główny"
+      "Root"
     ]
   ],
   "text_variables": {}

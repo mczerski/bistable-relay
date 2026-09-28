@@ -1,4 +1,17 @@
 (version 1)
-(rule hv_netclass_clearance
+
+(rule mains_clearance
+  (condition "A.NetClass == 'OUT' || B.NetClass == 'OUT'")
+  (constraint clearance (min 2.5mm)))
+
+(rule mains_contact_pair
   (condition "A.NetClass == 'OUT' && B.NetClass == 'OUT'")
-  (constraint clearance (min 0.8mm)))
+  (constraint clearance (min 1.5mm)))
+
+(rule mains_min_track
+  (condition "A.NetClass == 'OUT'")
+  (constraint track_width (min 1.5mm)))
+
+(rule mains_edge_clearance
+  (condition "A.NetClass == 'OUT'")
+  (constraint edge_clearance (min 0.2mm)))

@@ -1559,6 +1559,12 @@
 		(color 0 0 0 0)
 		(uuid "65e1db5c-a45e-461e-8655-9c157e314639")
 	)
+	(junction
+		(at 129.54 127)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9ce7e37c-d4b0-46d0-920e-0337d2fc2bd5")
+	)
 	(wire
 		(pts
 			(xy 135.89 88.9) (xy 144.78 88.9)
@@ -1601,6 +1607,16 @@
 	)
 	(wire
 		(pts
+			(xy 129.54 127) (xy 129.54 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "38cd3eb7-88df-4e76-b423-88f31faabb09")
+	)
+	(wire
+		(pts
 			(xy 144.78 104.14) (xy 144.78 113.03)
 		)
 		(stroke
@@ -1611,7 +1627,7 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 127) (xy 101.6 127)
+			(xy 168.91 127) (xy 129.54 127)
 		)
 		(stroke
 			(width 0)
@@ -1741,6 +1757,16 @@
 	)
 	(wire
 		(pts
+			(xy 129.54 127) (xy 101.6 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e4f954af-97f8-45ba-8203-750fe935f521")
+	)
+	(wire
+		(pts
 			(xy 129.54 93.98) (xy 135.89 93.98)
 		)
 		(stroke
@@ -1748,6 +1774,16 @@
 			(type default)
 		)
 		(uuid "ebdf08e6-083f-4b94-aec1-71c1f792a3d6")
+	)
+	(wire
+		(pts
+			(xy 129.54 137.16) (xy 129.54 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ede03d51-30e2-40c7-bb61-e1dc0abb7701")
 	)
 	(wire
 		(pts
@@ -1781,7 +1817,6 @@
 	)
 	(label "R2"
 		(at 154.94 106.68 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1792,7 +1827,6 @@
 	)
 	(label "R1"
 		(at 158.75 88.9 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1842,6 +1876,73 @@
 					(italic yes)
 				)
 				(justify left)
+			)
+		)
+	)
+	(symbol
+		(lib_name "GND_1")
+		(lib_id "power:GND")
+		(at 129.54 137.16 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "036999bd-8aa5-4166-804a-d5fcb4ae92b0")
+		(property "Reference" "#PWR14"
+			(at 129.54 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 129.54 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 129.54 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 129.54 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 129.54 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c19efd73-be07-4487-8a02-e2ec1ccb70a5")
+		)
+		(instances
+			(project "bistable-relay"
+				(path "/4a69ceaa-96a4-4d62-a433-9e614f222c23"
+					(reference "#PWR14")
+					(unit 1)
+				)
 			)
 		)
 	)
@@ -2954,6 +3055,76 @@
 			(project "bistable-relay"
 				(path "/4a69ceaa-96a4-4d62-a433-9e614f222c23"
 					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 129.54 132.08 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b0e3f768-18fb-4770-ba29-4f3e63315395")
+		(property "Reference" "R2"
+			(at 132.08 130.8099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 132.08 133.3499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 127.762 132.08 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 129.54 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 129.54 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "13a21eda-f8a6-4286-bfd1-1acf790bcf59")
+		)
+		(pin "2"
+			(uuid "3d3a285c-0ed5-4c70-802b-61485954b944")
+		)
+		(instances
+			(project "bistable-relay"
+				(path "/4a69ceaa-96a4-4d62-a433-9e614f222c23"
+					(reference "R2")
 					(unit 1)
 				)
 			)
